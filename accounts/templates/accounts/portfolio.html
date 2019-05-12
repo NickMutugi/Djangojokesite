@@ -1,0 +1,55 @@
+{%extends 'base.html'%}
+{% load static %}
+
+{%block title%}
+<title>Portfolio</title>
+{%endblock%}
+
+
+{%block head%}
+
+{%endblock%}
+
+
+{%block body%}
+
+<div class="container" style="margin-top: 100px">
+<div class="card-deck">
+  <div class="card">
+    <img src="{% static 'accounts/team1.jpg' %}" class="card-img-top" alt="">
+    <div class="card-body">
+      <h5 class="card-title">Nicklaus</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud
+
+      </p>
+      <p class="card-text"><small class="text-muted">www.Avatarcops.com</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="{% static 'accounts/pic06.jpg' %}" class="card-img-top" alt="">
+    <div class="card-body">
+      <h5 class="card-title">David Ndereba</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      <p class="card-text"><small class="text-muted">Journalist</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="{% static 'accounts/team-member-2.png' %}"  height="200px"class="card-img-top" alt="">
+    <div class="card-body">
+      <h5 class="card-title">Dominic Kyambi</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         Ut enim ad minim veniam, quis nostrud exercitation
+         ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      <p class="card-text"><small class="text-muted">PHD. Java</small></p>
+    </div>
+  </div>
+</div>
+</div>
+{%endblock%}
